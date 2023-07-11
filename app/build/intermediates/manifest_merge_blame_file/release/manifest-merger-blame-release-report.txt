@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.telephony"
+12-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:9-50
+13        android:required="false" />
+13-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.READ_CONTACTS" />
+15-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:5-72
+15-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:22-69
+16    <uses-permission android:name="android.permission.CALL_PHONE" />
+16-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:9:5-69
+16-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:9:22-66
+17
+18    <application
+18-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:5-31:19
+19        android:allowBackup="true"
+19-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /Users/nathanbrown-bennett/.gradle/caches/transforms-3/daa0caeded45294af7db78b246a30da1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:dataExtractionRules="@xml/data_extraction_rules"
+21-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:13:9-65
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:15:9-43
+25        android:label="@string/app_name"
+25-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:9-41
+26        android:supportsRtl="true"
+26-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:17:9-35
+27        android:theme="@style/Theme.MyApplication" >
+27-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:9-51
+28        <activity
+28-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:21:9-27:20
+29            android:name="com.example.myapplication.MainActivity"
+29-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:21:19-47
+30            android:exported="true" >
+30-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:13-36
+31            <intent-filter>
+31-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:23:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:17-69
+32-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:24:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:25:17-77
+34-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.example.myapplication.BlacklistActivity" />
+37-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:29:9-55
+37-->/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:29:19-52
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.0.0] /Users/nathanbrown-bennett/.gradle/caches/transforms-3/29aa7dbc702ee4bf320abefa48979a7b/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.0.0] /Users/nathanbrown-bennett/.gradle/caches/transforms-3/29aa7dbc702ee4bf320abefa48979a7b/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+41            android:authorities="com.example.myapplication.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.0.0] /Users/nathanbrown-bennett/.gradle/caches/transforms-3/29aa7dbc702ee4bf320abefa48979a7b/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.0.0] /Users/nathanbrown-bennett/.gradle/caches/transforms-3/29aa7dbc702ee4bf320abefa48979a7b/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/nathanbrown-bennett/.gradle/caches/transforms-3/29aa7dbc702ee4bf320abefa48979a7b/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/nathanbrown-bennett/.gradle/caches/transforms-3/29aa7dbc702ee4bf320abefa48979a7b/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/nathanbrown-bennett/.gradle/caches/transforms-3/29aa7dbc702ee4bf320abefa48979a7b/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nathanbrown-bennett/.gradle/caches/transforms-3/1ca674f5a525975dfa1cede8f9a5bc4b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nathanbrown-bennett/.gradle/caches/transforms-3/1ca674f5a525975dfa1cede8f9a5bc4b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nathanbrown-bennett/.gradle/caches/transforms-3/1ca674f5a525975dfa1cede8f9a5bc4b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>

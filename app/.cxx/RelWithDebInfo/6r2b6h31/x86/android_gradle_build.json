@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/nathanbrown-bennett/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/.cxx/RelWithDebInfo/6r2b6h31/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/nathanbrown-bennett/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/.cxx/RelWithDebInfo/6r2b6h31/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "myapplication::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "myapplication",
+      "output": "/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/build/intermediates/cxx/RelWithDebInfo/6r2b6h31/obj/x86/libmyapplication.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/nathanbrown-bennett/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/nathanbrown-bennett/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

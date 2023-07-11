@@ -1,0 +1,5 @@
+# ninja log v5
+0	875	1688929349354728271	CMakeFiles/myapplication.dir/native-lib.cpp.o	3e5d3c55d82ed696
+876	1060	1688929349509588494	/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/build/intermediates/cxx/Debug/2z69m3z4/obj/armeabi-v7a/libmyapplication.so	ef5965964648855b
+3	212	1688951875357219259	/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/build/intermediates/cxx/Debug/2z69m3z4/obj/armeabi-v7a/libmyapplication.so	ef5965964648855b
+1	211	1688952482177756420	/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/build/intermediates/cxx/Debug/2z69m3z4/obj/armeabi-v7a/libmyapplication.so	ef5965964648855b

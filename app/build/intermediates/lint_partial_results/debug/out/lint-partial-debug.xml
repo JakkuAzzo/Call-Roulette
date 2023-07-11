@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.0.2" type="partial_results">
+    <map id="UnusedResources">
+        <location id="R.drawable.ic_launcher"
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/ic_launcher.webp"/>
+        <entry
+            name="model"
+            string="attr[colorPrimaryVariant(R)],color[purple_200(U),black(U),teal_200(U),white(U),teal_700(U),purple_700(U),purple_500(U)],drawable[ic_launcher_foreground(U),ic_launcher_background(U),ic_launcher_foreground_1(R),ic_launcher(D)],id[countdown_text(U),contact_name(U),message_button(U),call_button(U),skip_button(U),number_neighbours_slider(U),blacklist_list_view(U),total_contacts_text(U),shuffle_button(U),contact_number(U),private_calling_checkbox(U),blacklist_button(U),add_number_neighbours_checkbox(U)],layout[activity_main(U),activity_blacklist(U)],mipmap[ic_launcher(U)],string[call_contact(U),open_blacklist(U),app_name(U),shuffle_contacts(U),number_neighbour(U),skip_contact(U),send_message(U),private_calling(U)],style[Theme_MyApplication(U),Theme_MaterialComponents_DayNight_DarkActionBar(R)],xml[data_extraction_rules(U),backup_rules(U)];8^a,19^1f^14^c^d^15^1c^f^22^e^21^23^16^1d^20,1b^9^8,24^25^7^6^4^3^5^2^0^1;;;"/>
+    </map>
+
+</incidents>

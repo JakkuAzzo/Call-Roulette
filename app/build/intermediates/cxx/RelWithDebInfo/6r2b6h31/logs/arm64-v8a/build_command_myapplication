@@ -1,0 +1,4 @@
+/Users/nathanbrown-bennett/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/.cxx/RelWithDebInfo/6r2b6h31/arm64-v8a \
+  myapplication
