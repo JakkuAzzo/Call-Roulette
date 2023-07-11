@@ -1,0 +1,10 @@
+#Mon Jul 10 02:23:46 BST 2023
+base.2=/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/11/classes.dex
+path.2=11/classes.dex
+base.1=/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.1=0/classes.dex
+base.0=/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

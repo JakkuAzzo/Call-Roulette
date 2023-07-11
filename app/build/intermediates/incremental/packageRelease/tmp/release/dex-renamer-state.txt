@@ -1,0 +1,4 @@
+#Mon Jul 10 02:19:58 BST 2023
+base.0=/Users/nathanbrown-bennett/AndroidStudioProjects/MyApplication/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

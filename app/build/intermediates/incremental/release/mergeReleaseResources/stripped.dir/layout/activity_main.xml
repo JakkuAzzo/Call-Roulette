@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/total_contacts_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Contacts: 0" />
+
+    <Button
+        android:id="@+id/shuffle_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shuffle_contacts" />
+
+    <TextView
+        android:id="@+id/countdown_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shuffle_button"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countdown_text"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/contact_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_name"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/call_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_number"
+        android:layout_marginTop="16dp"
+        android:text="@string/call_contact"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/message_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/call_button"
+        android:layout_marginTop="16dp"
+        android:text="@string/send_message"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/skip_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message_button"
+        android:layout_marginTop="16dp"
+        android:text="@string/skip_contact"
+        android:visibility="gone" />
+
+
+    <CheckBox
+        android:id="@+id/private_calling_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/private_calling" />
+
+
+    <Button
+        android:id="@+id/blacklist_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/private_calling_checkbox"
+        android:layout_marginTop="16dp"
+        android:text="@string/open_blacklist"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/add_number_neighbours_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number_neighbour"
+        android:visibility="visible" />
+
+    <SeekBar
+        android:id="@+id/number_neighbours_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="0" />
+
+
+</RelativeLayout>
