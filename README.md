@@ -2,10 +2,10 @@
 An app to make calling more fun when bored
 
 
-''' Call Roulette '''
+``` Call Roulette ```
 Call Roulette is a fun and interactive Android application that brings an element of surprise and spontaneity to your daily communication. The app randomly selects contacts from your phone's contact list and allows you to initiate calls or messages with them, creating unique and unexpected conversations.
 
-'''Functionality'''
+```Functionality```
 1. Random Contact Selection
 Call Roulette randomly picks a contact from your phone's contact list, ensuring each interaction is unpredictable and exciting.
 
@@ -27,7 +27,7 @@ The app includes a countdown timer, adding suspense and anticipation before each
 7. Collaborate with Others
 Call Roulette is an open-source project, and we welcome programmers and developers from all backgrounds to collaborate and contribute to its development. Whether you're an experienced developer or just getting started, your skills and ideas are valuable in making Call Roulette even better!
 
-'''Collaborate with us! (well, me pls..)'''
+```Collaborate with us! (well, me pls..)```
 We believe in fostering an inclusive and welcoming community. If you're interested in contributing to Call Roulette or have any ideas for new features, bug fixes, or enhancements, we encourage you to join us! Here's how you can get started:
 
 Fork the Repository: Start by forking the Call Roulette repository to your GitHub account.
@@ -48,10 +48,10 @@ Collaborate and Discuss: Engage with the community and other contributors in dis
 
 Merge and Celebrate: Once your pull request is reviewed and approved, it will be merged into the main repository. Celebrate your contribution to Call Roulette!
 
-'''Getting Started'''
+```Getting Started```
 To get started, make sure you have Android Studio installed on your computer. Open the project in Android Studio and explore the codebase. Feel free to reach out to us if you have any questions or need guidance on how to contribute.
 
-'''Contact'''
+```Contact```
 We believe in fostering a welcoming and inclusive community. Feel free to reach out to us if you have any questions, ideas, or just want to say hello! Join us in making Call Roulette an exciting and enjoyable application for everyone.
 
 Let's Make Communication Fun!
